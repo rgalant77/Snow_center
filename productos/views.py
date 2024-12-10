@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def inicio(request):
-    return HttpResponse("Vista inicio")
+    return render(request, "productos/inicio.html")
 
 def snowboard(request):
     return HttpResponse("Vista snowboard")

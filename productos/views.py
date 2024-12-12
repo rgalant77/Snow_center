@@ -7,11 +7,11 @@ def inicio(request):
     return render(request, "productos/inicio.html")
 
 def snowboard(request):
-    return HttpResponse("Vista snowboard")
+    return render(request, "productos/snowboard.html")
 
 def ski(request):
-    return HttpResponse("Vista ski")
+    return render(request, "productos/ski.html")
 
 def antiparras(request):
-    return HttpResponse("Vista antiparras")
+    return render(request, "productos/antiparras.html")
 

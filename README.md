@@ -1,10 +1,13 @@
 # Snow_center
 
 ## Descripción del Proyecto
-Este proyecto es una página web de venta online dedicada a la comercialización de equipos de snowboard, accesorios de esquí y otros productos relacionados. La plataforma ha sido desarrollada utilizando Python 3.11.0 y Django 4.2, proporcionando una experiencia de usuario fluida y eficiente.
+Este proyecto es una página web de venta online dedicada a la comercialización de equipos de snowboard, 
+accesorios de esquí y otros productos relacionados. La plataforma ha sido desarrollada utilizando Python 3.11.0 y Django 4.2, 
+proporcionando una experiencia de usuario fluida y eficiente.
 
 ### Estado del Proyecto
-El proyecto se encuentra en desarrollo activo. Se están implementando nuevas funcionalidades y mejoras para optimizar la experiencia del usuario y la gestión del inventario.
+El proyecto se encuentra en desarrollo activo. Se están implementando nuevas funcionalidades y mejoras para optimizar la experiencia 
+del usuario y la gestión del inventario.
 
 ### Tecnologías Utilizadas
 1. Lenguaje de Programación: Python 3.11.0

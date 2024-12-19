@@ -27,6 +27,15 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              Nieve/Enter
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="{% url 'BuscarAntiparra' %}">Buscar</a></li>
+                              <li><a class="dropdown-item" href="{% url 'FormSnowboard' %}">Agregar</a></li>
+                            </ul>
+                          </div>
                         <li class="nav-item"><a class="nav-link" href="{% url 'snowboard' %}">snowboard</a></li>
                         <li class="nav-item"><a class="nav-link" href="{% url 'ski' %}">ski</a></li>
                         <li class="nav-item"><a class="nav-link" href="{% url 'antiparras' %}">antiparras</a></li>
